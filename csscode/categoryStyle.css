@@ -1,0 +1,188 @@
+/*UNIVERSAL CODES*/
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/lora');
+
+* {
+    font-family: poppins, 'Segoe UI', Verdana, sans-serif;
+}
+
+body {
+    background-color: #fffafa;
+}
+
+h1, h2, h3, h4 {
+    font-family: lora, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.header {
+    background-color: white;
+    color: #061A38;
+    display:flex;
+    margin:-8px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.logo {
+    width:40%;
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+    text-align: right;
+    padding: 20px;
+    font-size: 1.2em;
+    justify-content: flex-end; /* Aligns nav items to the right */
+}
+
+.navbar a{
+    text-decoration: none;
+    background-color: white;
+    color:#061A38;
+    border: 2px solid white;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    background-color: #e4DAF7;
+}
+
+.navbar a:active{
+    transform: scale(0.9);
+}
+
+.button {
+    text-decoration: none;
+    background-color: #e4daf7;
+    border: 2px solid #46527d;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.button:link{
+    text-decoration: none;
+    background-color: #e4daf7;
+    border: 2px solid #46527d;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: #46527d;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #46527d;
+    border: 2px solid #46527d;
+}
+.button:active {
+    transform: scale(0.9);
+}
+
+.foot {
+    background-color: #44406B;
+    padding: 20px 15px 15px;
+    margin: 0px -8px -8px;
+}
+
+.container h1 {
+    font-size: 3em !important;
+}
+
+.container {
+    margin:20px 80px;
+}
+
+/*This will be all category Styles*/
+
+
+.seperate-container {
+    margin-left: 10px;
+    display: flex;
+}
+
+.left-container {
+    width: 50%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns child items to the right */
+    width: 50%;
+}
+
+.Lcat {
+    width: 70%;
+    background-color: #e4DAF7;
+    padding: 5px 25px 15px 20px;
+    margin-bottom: 40px;
+    border: 2px solid #e4DAF7;
+    border-radius: 10px 50px 50px 10px;
+    align-items: left;
+    text-align: justify;
+}
+
+.Lcat:hover {
+    width: 70%;
+    background-color: #fef7f0;
+    border: 2px solid #e4DAF7;
+    border-radius: 10px 50px 50px 10px;
+    align-items: left;
+    text-align: justify;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.Rcat {
+    width: 70%;
+    background-color: #fef7f0;
+    padding: 5px 25px 15px 20px;
+    margin-bottom: 40px;
+    border: 2px solid #e4daf7;
+    border-radius: 50px 10px 10px 50px;
+    align-items: left;
+    text-align: justify;
+}
+
+.Rcat:hover {
+    width: 70%;
+    background-color: #e4DAF7;
+    border: 2px solid #fef7f0;
+    border-radius: 50px 10px 10px 50px;
+    align-items: left;
+    text-align: justify;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.title {
+    font-size: 1.7em;
+    text-align: left;
+    display: block;
+}
+
+.rtitle {
+    font-size: 1.7em;
+    display: block;
+    text-align: right;
+}
+
+
+.Rcat a {
+    color:#46527d;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+.Lcat a {
+    color:#46527d;
+    text-decoration: none;
+    font-weight: bold;
+}
