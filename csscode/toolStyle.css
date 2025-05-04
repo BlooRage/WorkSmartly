@@ -2,15 +2,13 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 @import url('https://fonts.cdnfonts.com/css/lora');
 
-* {
+
+body {
+    background-color: #fffafa;
     font-family: poppins, 'Segoe UI', Verdana, sans-serif;
 }
 
-body{
-    background-color: #D3F4E3;
-}
-
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
     font-family: lora, Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -85,59 +83,79 @@ h1, h2, h3, h4 {
 .foot {
     background-color: #44406B;
     padding: 20px 15px 15px;
-    margin: -25px -8px -8px;
+    margin: 0px -8px -8px;
+}
+
+.header-title h1 {
+    font-size: 3em !important;
+    margin: 30px 80px 40px;
 }
 
 .container {
     margin:20px 80px;
 }
 
+/*Tools Content*/
 
-/*Index Styles*/
+.all-tools h2 {
+    font-family: lora, Georgia, 'Times New Roman', Times, serif;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid lightgrey; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 2em;
+ } 
+ 
+ .all-tools h2 span { 
+     background:#fffafa; 
+     padding:0 10px; 
+ }
 
-.quote {
-    color: #44406B;
-    line-height: 5px;
-    margin: 0 -8px;
-    text-align: center;
-    padding: 100px;
-    font-size: 3em;
-}
+ .all-tools {
+    margin:20px 80px;
+ }
 
-#wsnh {
-    font-size: 1.2em;
-}
-
-.container {
+.tool-cat {
     display: flex;
-    margin:20px 80px;
+    margin: 30px 40px 80px;
 }
 
-.left-container {
-    width: 50%;
+ .tool {
+    display: block;
+    width: 23%;
+    background-color:#e4DAF7;
+    border: 2px solid #44406B;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 0px 0px 8px gray;
+ }
+
+ .tool:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+ }
+
+ .tool img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.left-container h1{
-    text-align: left;
-    padding: 20px 0px 15px;
-    font-size: 3em;
-    margin-top: 15%;
-}
+ .Pname {
+    font-size: 1.1em;
+    text-align: center;
+ }
 
-.left-container p{
+ .Pdesc {
     text-align: justify;
-    font-size: 1.5em;
-    padding: 0px 0px 15px;
-    padding-right: 15px;
-}
+    margin: -8px 5px 3px;
+ }
 
-.right-container {
-    width: 50%;
-    align-items: center;
-    align-content: center;
-}
-
-.seperate-container {
-    margin-left: 10px;
-    background-color: pink;
+ .tool a{
+    color:#46527d;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 10px 15px;
 }
