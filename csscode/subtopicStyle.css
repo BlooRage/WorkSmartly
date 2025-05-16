@@ -175,10 +175,14 @@ h1, h2, h3, h4 {
 
 .tool-logo {
     background-color: #fff;
-    border: 3px solid #44406B;
     border-radius: 20px;
     padding: 15px;
-    margin: 25px;
+    margin: 10px 25px;
+}
+
+.tool-logo img{
+    border: 3px solid #44406B;
+        border-radius: 20px;
 }
 
 .tool-desc {
