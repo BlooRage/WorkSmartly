@@ -158,6 +158,10 @@ body {
   .tool-tile {
     margin-bottom: 20px;
   }
+    .tool-tile {
+    padding: 10px;
+    margin-bottom: 1em;
+  }
 }
 
 
@@ -173,7 +177,7 @@ body {
 
   .tool-tile {
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 1em;
   }
 
   .Pdesc {

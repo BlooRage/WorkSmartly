@@ -1,145 +1,380 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <title>Work Smartly</title>
         <meta charset="utf-8">
-        <link rel="Stylesheet" type="text/css" href="../csscode/aboutStyle.css">
-    </head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Credits | WorkSmartly</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/creditsStyle.css">
+    </head>
     <body>
-        <!--GROUP 4-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
 
-        <!-- This is the Header and NavBar-->
-        <header class="header">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="#" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="#" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="index.html" class="head-btn" id="Home"><strong>HOME</strong></a>
-                <a href="about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="contact.html" class="head-btn" id="Contact">CONTACT</a>
-            </div>
-        </header>
-
-
-        <div class="about-btn">
-            <a href="../about.html" class="abt-btn">About Us</a>
-            <a href="about/about-credits.html" class="abt-btn"><strong>Credits</strong></a>
-        </div>
-
-        <div class="header-title">
-            <h1>Meet the Team</h1>
-        </div>
+          </div>
+        </nav>
 
         <div class="container">
-            <div class="credit-descrip">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We are a group of students from the University of the East – Manila, under the College of Computer Studies and Systems (CCSS). This project was developed as a final requirement for our course, CIP1101 – Integrative Programming and Technologies. Through this work, we aimed to apply our skills, collaborate effectively, and deliver a system that reflects our learning and passion in the field of Information Technology.</p>
+            <div class="row  my-3">
+                <div class="col-6 text-end" id="about-btn">
+                    <a class="abtbtn d-inline fs-3" href="../about.html">About Us</a>
+                </div>
+                <div class="col-6 text-start" id="about-btn">
+                    <a class="abtbtn d-inline fw-bold fs-3" href="about-credits.html">Credits</a>
+                </div>
             </div>
 
-            <div class="tile-container">
-                <div class="profile-tile">
-                    <div class="profile-img" align="center">
-                        <a href="profiles/aquino.jpeg" target="image" id="img"><img src="profiles/aquino.jpeg" title="Aquino's Profile" alt="Graduation Picture of Micah" width="90%"></a>
-                    </div>
-                    <div class="Name">
-                        <p class="stud-name"><strong>AQUINO, MICAH DANA C.</strong></p>
-                    </div>
-                    <div class="Description">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! I’m Micah Dana C. Aquino, 20 years old and currently a second year BSIT student. I’m curious about how systems and technology work, and I enjoy figuring things out behind the scenes. I am persevering and adaptable, even when things get challenging I keep pushing forward with a positive mindset. I believe learning should be both meaningful and fun, and I’m always up for new experiences that help me grow.</p>
-                    </div>
-                    <div class="divider" align="center">
-                        <h4 class="category"><span>Contributions</span></h4>
-                    </div>
-                    <div class="contribution-list">
-                        <ol class="contri" type="1">
-                            <li>Todoist</li>
-                            <li>TickTick</li>
-                            <li>Any.do</li>
-                            <li>Microsoft Planner</li>
-                            <li>Clockify</li>
-                            <li>Forest</li>
-                        </ol>
-                        <ol class="contri" type="1" start="7">
-                            <li>RescueTime</li>
-                            <li>Google Calendar</li>
-                            <li>Fantastical</li>
-                            <li>Calendly</li>
-                            <li>Reclaim.ai</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="profile-tile" id="center-tile">
-                    <div class="profile-img" align="center">
-                        <a href="profiles/aquino.jpeg" target="image" id="img"><img src="profiles/aquino.jpeg" title="Aquino's Profile" alt="Graduation Picture of Micah" width="90%"></a>
-                    </div>
-                    <div class="Name">
-                        <p class="stud-name"><strong>BOMBALES, SOPHIA DENIELLE F.</strong></p>
-                    </div>
-                    <div class="Description">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A second-year IT student with a passion for creativity, believing it sparks inspiration and fresh ideas. Always eager to learn and grow, and unafraid to step out of the comfort zone. Finds motivation in everyday experiences and joy in quirky, unexpected things. Believes that perseverance and hard work are key to overcoming obstacles and achieving success.</p>
-                    </div>
-                    <div class="divider" align="center">
-                        <h4 class="category"><span>Contributions</span></h4>
-                    </div>
-                    <div class="contribution-list">
-                        <ol class="contri" type="1">
-                            <li>Notion</li>
-                            <li>Microsoft OneNote</li>
-                            <li>EverNote</li>
-                            <li>Adobe Premiere Pro</li>
-                            <li>Final Cut Pro</li>
-                            <li>DaVinci Resolve</li>
-                        </ol>
-                        <ol class="contri" type="1" start="7">
-                            <li>Camtasia</li>
-                            <li>Google Meet</li>
-                            <li>Microsoft Teams</li>
-                            <li>Zoom</li>
-                            <li>Twist</li>
-                        </ol>
-
-                    </div>
-                </div>
-                <div class="profile-tile">
-                    <div class="profile-img" align="center">
-                        <a href="profiles/aquino.jpeg" target="image" id="img"><img src="profiles/aquino.jpeg" title="Aquino's Profile" alt="Graduation Picture of Micah" width="90%"></a>
-                    </div>
-                    <div class="Name">
-                        <p class="stud-name"><strong>AQUINO, MICAH DANA C.</strong></p>
-                    </div>
-                    <div class="Description">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! I’m Micah Dana C. Aquino, 20 years old and currently a second year BSIT student. I’m curious about how systems and technology work, and I enjoy figuring things out behind the scenes. I am persevering and adaptable, even when things get challenging I keep pushing forward with a positive mindset. I believe learning should be both meaningful and fun, and I’m always up for new experiences that help me grow.</p>
-                    </div>
-                    <div class="divider" align="center">
-                        <h4 class="category"><span>Contributions</span></h4>
-                    </div>
-                    <div class="contribution-list">
-                        <ol class="contri" type="1">
-                            <li>Todoist</li>
-                            <li>TickTick</li>
-                            <li>Any.do</li>
-                            <li>Microsoft Planner</li>
-                            <li>Clockify</li>
-                            <li>Forest</li>
-                        </ol>
-                        <ol class="contri" type="1" start="7">
-                            <li>RescueTime</li>
-                            <li>Google Calendar</li>
-                            <li>Fantastical</li>
-                            <li>Calendly</li>
-                            <li>Reclaim.ai</li>
-                        </ol>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center" id="page-title">
+                    <h1 class="display-3 fw-bold">Meet the Team</h1>
                 </div>
             </div>
         </div>
 
-        <!-- This is the Footer-->
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
+        <div class="container-fluid ">
+            <div class="row mx-2 mx-xl-5 mb-3">
+                <div class="col-12 text-center" id="page-title">
+                    <p class="fs-3 mx-3 mx-xl-5 custom-responsive-text" style="text-align:justify;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a group of students from the University of the East – Manila, under the College of Computer Studies and Systems (CCSS). This project was developed as a final requirement for our course, CIP1101 – Integrative Programming and Technologies. Through this work, we aimed to apply our skills, collaborate effectively, and deliver a system that reflects our learning and passion in the field of Information Technology.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="container-fluid" id="all-profiles">
+
+
+            <div class="row align-items-center justify-content-center mb-4">
+                <div class="row d-flex align-items-stretch justify-content-center">
+                    
+                    <!-- Profile Tile 1 -->
+                     <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/aquino.jpeg" target="image">
+                                    <img src="profiles/aquino.jpeg" class="img-fluid" style="width: 98%;" title="Aquino's Formal Picture" alt="Aquino's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold" id="name">AQUINO, MICAH DANA C.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! I’m Micah Dana C. Aquino, 20 years old and currently a second year BSIT student. I’m curious about how systems and technology work, and I enjoy figuring things out behind the scenes. I am persevering and adaptable, even when things get challenging I keep pushing forward with a positive mindset. I believe learning should be both meaningful and fun, and I’m always up for new experiences that help me grow.</p>
+                            </div>
+                            <div class="col-4 d-none d-md-block" id="contri-col">
+                                <p class="fs-4 fw-bold my-3 text-center">CONTRIBUTIONS</p>               
+                                <div class="contri-cont text-center">                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Todoist</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">TickTick</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Any.do</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Microsoft Planner</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Clockify</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Forest</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Rescue Time</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Google Calendar</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Fantastical</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Calendly</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Reclaim ai</a>               
+                                </div>           
+                            </div>      
+                        </div>   
+                    </div>
+                    
+                    <!-- Profile Tile 2 -->
+                    <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/bombales.jpg" target="image">
+                                    <img src="profiles/bombales.jpg" class="img-fluid" style="width: 98%;" title="Bombales's Formal Picture" alt="Bombales's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Bombales, Sophia Denielle F.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A second-year IT student with a passion for creativity, believing it sparks inspiration and fresh ideas. Always eager to learn and grow, and unafraid to step out of the comfort zone. Finds motivation in everyday experiences and joy in quirky, unexpected things. Believes that perseverance and hard work are key to overcoming obstacles and achieving success.</p>   
+                            </div>  
+                            <div class="col-4 d-none d-md-block" id="contri-col">  
+                                <p class="fs-3 fw-bold my-3 text-center">CONTRIBUTIONS</p>
+                                <div class="contri-cont text-center">  
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Notion</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Microsoft OneNote</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">EverNote</a>   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Adobe Premiere</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Final Cut Pro</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">DaVinci Resolve</a>        
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Camtasia</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Google Meet</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Microsoft Teams</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Zoom</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Twist</a>            
+                                </div>            
+                            </div>       
+                        </div>    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center justify-content-center mb-4">
+                <div class="row d-flex align-items-stretch justify-content-center">
+                    
+                    <!-- Profile Tile 3 -->
+                     <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/CARAIG.png" target="image">
+                                    <img src="profiles/CARAIG.png" class="img-fluid" style="width: 98%;" title="Caraig's Formal Picture" alt="Caraig's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Caraig, John Michael O.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, I'm John Michael O. Caraig codenamed moik. I am a second-year IT student, currently in college. Passionate about technology, web designing and more. As I pursue my degree, I aim to build a solid knowledge in programming, with the goal of applying my knowledge to the real world challenges and innovative solutions.</p>
+                            </div>
+                            <div class="col-4 d-none d-md-block" id="contri-col">
+                                <p class="fs-4 fw-bold my-3 text-center">CONTRIBUTIONS</p>               
+                                <div class="contri-cont text-center">                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Zotero</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Readwise</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Pocket</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Feedly Planner</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Typora</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Obsidian</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Mark Text</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Dilinger</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Momentum</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Simple Mind</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Coggle</a>               
+                                </div>           
+                            </div>      
+                        </div>   
+                    </div>
+                    
+                    <!-- Profile Tile 4 -->
+                    <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/gonzales.png" target="image">
+                                    <img src="profiles/gonzales.png" class="img-fluid" style="width: 98%;" title="Gonzales's Formal Picture" alt="Gonzales's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Gonzales, Kin Ramiel M.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Kin Gonzales, a 20-year-old Bachelor of Science in Information Technology student. I consider myself an explorer, always driven to try new experiences and challenges. My curiosity naturally led me to the world of coding, where I enjoy solving problems and building creative solutions. I'm passionate about technology and always looking for ways to grow and improve my skills. </p>   
+                            </div>  
+                            <div class="col-4 d-none d-md-block" id="contri-col">  
+                                <p class="fs-3 fw-bold my-3 text-center">CONTRIBUTIONS</p>
+                                <div class="contri-cont text-center">  
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">ChatGPT</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">BlackBox AI</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Notion AI</a>   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">DeepSeek AI</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Visual Studio Code</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Github</a>        
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">PostMan</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Code Sand Box</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Mind Meister</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">X Mind</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">PDF Escape</a>            
+                                </div>            
+                            </div>       
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-center mb-4">
+                <div class="row d-flex align-items-stretch justify-content-center">
+                    
+                    <!-- Profile Tile 5 -->
+                     <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/magalong.png" target="image">
+                                    <img src="profiles/magalong.png" class="img-fluid" style="width: 98%;" title="Magalong's Formal Picture" alt="Magalong's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Magalong, Carl Andrew S.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Carl Andrew Magalong, a 20-year-old Information Technology student with a strong interest in how systems work behind the scenes. I enjoy understanding the logic that powers applications and turning ideas into functional, efficient solutions. Whether it’s debugging code or exploring new tech trends, I approach each task with focus and determination. I believe in continuous learning and aim to develop skills that not only improve my craft but also bring real value to the people who use the technology I help build.</p>
+                            </div>
+                            <div class="col-4 d-none d-md-block" id="contri-col">
+                                <p class="fs-4 fw-bold my-3 text-center">CONTRIBUTIONS</p>               
+                                <div class="contri-cont text-center">                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">HubSpot CRM</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Zoho CRM</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Pipedrive</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Salesforce Planner</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Obsidian</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Toggl Track</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Mint</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">YNAB</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">PocketGuard</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Personal Captial</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">ClickUp</a>               
+                                </div>           
+                            </div>      
+                        </div>   
+                    </div>
+                    
+                    <!-- Profile Tile 6 -->
+                    <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/Mendoza.png" target="image">
+                                    <img src="profiles/Mendoza.png" class="img-fluid" style="width: 98%;" title="Mendoza's Formal Picture" alt="Mendoza's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Mendoza, Jerome T.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A passionate 2nd-year BS Information Technology student with a strong foundation in leadership, programming, and business. Driven by curiosity and a love for learning, he enjoys tackling challenges, exploring new technologies, and building creative projects—especially in game development and AI. Outside of tech, he’s a coffee enthusiast, anime lover, and avid adventurer who finds inspiration in nature, food, and spontaneous experiences. With a growth mindset and a dream of making a mark in the IT field,I am always eager to evolve, create, and connect.</p>   
+                            </div>  
+                            <div class="col-4 d-none d-md-block" id="contri-col">  
+                                <p class="fs-3 fw-bold my-3 text-center">CONTRIBUTIONS</p>
+                                <div class="contri-cont text-center">  
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Home</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">About</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Credits</a>   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Category</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Tools</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Contact</a>        
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Canva</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Figma</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Milanote</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Adobe Express</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Google Drive</a>
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Dropbox</a>
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">iflow</a>            
+                                    <a class="contri-link py-2 mx-3 mb-3 mt-2 d-inline-block" style="width: 80%;" href="#">Box</a>
+                                </div>            
+                            </div>       
+                        </div>    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center justify-content-center mb-4">
+                <div class="row d-flex align-items-stretch justify-content-center">
+                    
+                    <!-- Profile Tile 7 -->
+                     <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/panis.png" target="image">
+                                    <img src="profiles/panis.png" class="img-fluid" style="width: 98%;" title="Panis's Formal Picture" alt="Panis's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Panis, Kathleen Nicole P.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, I’m Kathleen, but you can call me Kath. I’m currently a third year student studying at University of the East. I'm someone who values dedication, creativity, and continuous improvement in everything I do. Outside of Academics, I’ve always had a deep love for reading and writing stories, it’s my way of escaping the real world and diving into imagined ones where everything is possible. </p>
+                            </div>
+                            <div class="col-4 d-none d-md-block" id="contri-col">
+                                <p class="fs-4 fw-bold my-3 text-center">CONTRIBUTIONS</p>               
+                                <div class="contri-cont text-center">                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Contact</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">StayFocusd</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Alfred</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Buplup</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Freedom</a>                    
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Cold Turkey</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Focus@Will</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Brain.fm</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">WorkFlowy</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">ClickTime</a>                   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Focuster</a>       
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Taskade</a>          
+                                </div>           
+                            </div>      
+                        </div>   
+                    </div>
+                    
+                    <!-- Profile Tile 8 -->
+                    <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                        <div class="row justify-content-center flex-grow-1">
+                            <div class="col-8 text-center" id="intro-col">
+                                <a class="img-btn d-inline-block my-3" href="profiles/Solpico.png" target="image">
+                                    <img src="profiles/Solpico.png" class="img-fluid" style="width: 98%;" title="Solpico's Formal Picture" alt="Solpico's Formal Picture">
+                                </a>
+                                <p class="fs-4 fw-bold text-uppercase" id="name">Solpico, Heinrich Von B.</p>
+                                <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, I'm Von, a 2nd-year BS Information Technology student currently studying at the University of the East. I’ve always been passionate about tech, and I enjoy learning new things every day! I’m excited for what’s ahead and looking forward to creating cool and useful projects that can make a positive impact.</p>   
+                            </div>  
+                            <div class="col-4 d-none d-md-block" id="contri-col">  
+                                <p class="fs-3 fw-bold my-3 text-center">CONTRIBUTIONS</p>
+                                <div class="contri-cont text-center">  
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Google Mail</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Superhuman</a>      
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Grammarly</a>   
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">SaneBox</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">AdobeAcrobat</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">SmallPDF</a>        
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Foxit Editor</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">LastPass</a>            
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">1Password</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Bitwarden</a>           
+                                    <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Dashlane</a>            
+                                </div>            
+                            </div>       
+                        </div>    
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row align-items-center justify-content-center mb-4">
+                <!-- Single Centered Profile Tile - 9 -->
+                <div class="col-md-5 mx-sm-2 my-3 profile-tile d-flex flex-column">
+                    <div class="row justify-content-center flex-grow-1">
+                        <div class="col-8 text-center" id="intro-col">
+                            <a class="img-btn d-inline-block my-3" href="profiles/Torres.png" target="image">
+                                <img src="profiles/Torres.png" class="img-fluid" style="width: 98%;" title="Tores's Formal Picture" alt="Tores's Formal Picture">
+                            </a>
+                            <p class="fs-4 text-uppercase fw-bold" id="name">Torres Francis Maximus G.</p>
+                            <p class="fs-5 m-3 text-justify" style="text-align: justify;" id="short-intro"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello everyone! I’m Francis Maximus G. Torres, your friendly neighborhood IT student from UE Manila, currently in my 2nd year of BSIT. I hope you enjoy using our website. We've put our heart and effort into making it the best experience possible for you.</p>
+                        </div>
+                        <div class="col-4 d-none d-md-block" id="contri-col">
+                            <p class="fs-4 fw-bold my-3 text-center">CONTRIBUTIONS</p>
+                            <div class="contri-cont text-center">
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Trello</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Asana</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Monday.com</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Zapier</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">IFTTT</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Make</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Automate.io</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Google Workplace</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Microsoft 365</a>
+                                <a class="contri-link py-2 mx-3 mt-2 d-inline-block" style="width: 80%;" href="#">Zoho Workplace</a>
+                                <a class="contri-link py-2 mx-3 mb-3 mt-2 d-inline-block" style="width: 80%;" href="#">Coda</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--Footer-->
+        <div class="container-fluid" style="background-color: #44406B;;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
     </body>
 </html>
