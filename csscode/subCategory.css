@@ -91,6 +91,7 @@ body {
 /*ADDED FOR HOVER*/
 .learn {
     transition: color 0.3s ease;
+    margin-bottom: 8px;
   }
 
   .learn:hover {
@@ -114,7 +115,7 @@ body {
   }
 
   .tool-tile:hover .img-btn img {
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
 
 
