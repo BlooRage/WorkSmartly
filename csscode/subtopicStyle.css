@@ -186,7 +186,7 @@ h1, h2, h3, h4 {
 }
 
 .tool-desc {
-    margin: 25px 30px 20px 15px;
+    margin: 25px 30px 20px 35px;
     font-size: 1.2em;
     text-align: justify;
 }
@@ -220,7 +220,6 @@ h1, h2, h3, h4 {
     height: 314px;
     margin: 0px 20px -50px;
     align-items: center;
-    border: 3px solid #44406B;
  }
 
 
@@ -261,6 +260,24 @@ h1, h2, h3, h4 {
     text-align: center;
     font-size: 1.4em;
     margin-bottom: -5px;
+}
+
+.UI-Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-left-container {
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;      /* Vertical centering */
+    width: 50%;               /* Adjust as needed */
+    height: 100%;             /* Ensure there's enough height */
+}
+
+.ui-left-container img {
+    max-width: 95%;           /* Maintain image responsiveness */
+    height: auto;
 }
 
 /*If you need extra CSS code, Write it below*/
