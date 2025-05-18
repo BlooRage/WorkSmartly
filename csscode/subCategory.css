@@ -88,6 +88,38 @@ body {
   border-radius: 5px;
 }
 
+/*ADDED FOR HOVER*/
+.learn {
+    transition: color 0.3s ease;
+  }
+
+  .learn:hover {
+    color: #2a3a72;
+    text-decoration: underline;
+  }
+
+  .tool-tile {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .tool-tile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  .img-btn img {
+    transition: transform 0.3s ease;
+    width: 90%;
+  }
+
+  .tool-tile:hover .img-btn img {
+    transform: scale(1.1);
+  }
+
+
+
+/*TOP BUTTON */
 .top-btn {
     position: sticky;
     bottom: 0px;

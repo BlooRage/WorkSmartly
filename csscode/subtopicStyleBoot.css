@@ -170,3 +170,17 @@ body{
         justify-content: center !important;
       }
     }
+
+/* Hover for video*/
+.row.g-4.mx-5.mb-5.mt-4 .col-12 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-bottom 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  border-bottom: 2px solid transparent;
+}
+
+.row.g-4.mx-5.mb-5.mt-4 .col-12:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #44406B;
+}
