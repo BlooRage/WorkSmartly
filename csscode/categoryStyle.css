@@ -99,3 +99,17 @@ body {
     color: #2a3a72;
     text-decoration: underline;
   }
+
+  .tile-left:hover {
+
+    transform: scale(1.05);
+    transition: transform 1s ease;
+}
+
+
+
+.tile-right:hover {
+
+    transform: scale(1.05);
+    transition: transform 1s ease;
+}
