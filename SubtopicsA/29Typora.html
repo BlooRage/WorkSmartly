@@ -1,107 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WorkSmartly: Typora</title>
-        <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
     </head>
     <body>
-        <!-- This is the Header and NavBar-->
-        <!-- DONT CHANGE -->
-        <header class="header" id="head">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="../index.html" class="head-btn" id="Home">HOME</a> 
-                <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#Typora" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+              <h1 class="display-5 fw-bold mt-3" id="page-title">Typora</h1>
             </div>
-        </header>
-
-        <!-- RETURN BUTTON -->
-        <!-- DONT CHANGE -->
-        <div class="return-btn" id="returnBtn">
-            <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-        </div>     
-
-
-        <!--Productivity Tool Name-->
-        <div class="header-title">
-            <h1>Typora</h1><!--Change Name-->
+          </div>
         </div>
 
-        <!--Container Class-->
-        <div class="container">
-            <div class="first-section">
-                <div class="left-container">
-                    <div class="tool-logo">
-                        <a href="../Images/29Typora.png" target="image" id="img"><img src="../Images/29Typora.png" title="Asana Logo" alt="Typora Logo" width="95%"></a>
-                    </div>
-                </div>
-                <div class="right-container">
-                    <div class="tool-desc">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typora is a minimalist yet feature-rich Markdown editor designed to provide a seamless and distraction-free writing experience for users across Windows, macOS, and Linux platforms. Its standout feature is the real-time live preview, which eliminates the need for a separate preview pane by rendering Markdown syntax directly as you type, allowing writers to focus solely on content creation without the clutter of formatting symbols or mode switches. Typora supports GitHub Flavored Markdown and extends its capabilities with features like syntax highlighting for over 100 programming languages, making it an excellent tool for developers and technical writers. The editor also caters to academic and scientific writing by offering robust support for mathematical expressions using LaTeX, as well as diagram generation through tools like Mermaid and flowchart.js. Users can personalize their workspace with customizable themes and CSS styling, and navigate 
-                            complex documents effortlessly using the outline panel and auto-generated table of contents</p>
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <a href="../Images/29Typora.png" target="image" id="img"><img src="../Images/29Typora.png" title="Box Logo" alt="Box Logo" width="75%"></a>
+              </div>
+            </div>
+            <div class="col-md-8" style="text-align: justify;">
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typora is a minimalist yet feature-rich Markdown editor designed to provide a seamless and distraction-free writing experience for users across Windows, macOS, and Linux platforms. Its standout feature is the real-time live preview, which eliminates the need for a separate preview pane by rendering Markdown syntax directly as you type, allowing writers to focus solely on content creation without the clutter of formatting symbols or mode switches. Typora supports GitHub Flavored Markdown and extends its capabilities with features like syntax highlighting for over 100 programming languages, making it an excellent tool for developers and technical writers. The editor also caters to academic and scientific writing by offering robust support for mathematical expressions using LaTeX, as well as diagram generation through tools like Mermaid and flowchart.js. Users can personalize their workspace with customizable themes and CSS styling, and navigate complex documents effortlessly using the outline panel and auto-generated table of contents
 
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Additional functionalities include Focus Mode and Typewriter Mode for enhanced concentration, auto-pairing of brackets and quotes, and comprehensive export options to formats such as PDF, Word, HTML, LaTeX, and Epub. With its clean interface and powerful features, Typora stands out as a versatile Markdown editor suitable for writers, developers, researchers, and anyone seeking a streamlined writing environment.
 </p>
-                    </div>
-                </div>
+
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Additional functionalities include Focus Mode and Typewriter Mode for enhanced concentration, auto-pairing of brackets and quotes, and comprehensive export options to formats such as PDF, Word, HTML, LaTeX, and Epub. With its clean interface and powerful features, Typora stands out as a versatile Markdown editor suitable for writers, developers, researchers, and anyone seeking a streamlined writing environment.</p>
             </div>
 
-            
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>User Interface</span></h2>
-            </div>
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://typora.io/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
 
-            <div class="UI-Container">
-                <div class="ui-left-container" align="center">
-                    <a href="../Images/29TyporaUI1.png" target="image" id="img"><img src="../Images/29TyporaUI1.png" title="Typora Dashboard" alt="The Dashboard of Typora" width="95%"></a>
-                </div>
-                <div class="ui-right-container">
-                    <p class="ui-name"><strong>Typora Dashboard</strong></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typora’s user interface is designed to be clean, minimalistic, and distraction-free, helping users focus purely on writing. Unlike traditional Markdown editors that separate the editor and preview panes, Typora integrates live preview directly into the editing space, what you see is exactly how your document will appear. Typora also features syntax highlighting for code blocks in over 100 programming languages. When you insert a code block python, it highlights the syntax automatically, making it ideal for developers and technical writers. The interface supports custom themes and CSS, allowing you to personalize the appearance fonts, colors, spacing, etc. Overall, the UI balances simplicity with power, offering a seamless writing and editing experience where formatting feels invisible, yet fully functional in the background.
-</p>
-                </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
             </div>
+          </div>
 
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>Video Tutorials</span></h2>
-            </div>
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/29TyporaUI1.png" target="image" id="img">     
+                    <img src="../Images/29TyporaUI1.png" class="img-fluid" title="Box UI" alt="Box Dashboard">
+                  </a>
+                </div>
+              </div>
 
-            <div class="video-container">
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/LVvBX3cN_VE">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/Yq6u6Z1yuco">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/qtI9kJQquKw">
-                    </iframe>
-                </div>
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">Typora Dashboard</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Typora’s user interface is designed to be clean, minimalistic, and distraction-free, helping users focus purely on writing. Unlike traditional Markdown editors that separate the editor and preview panes, Typora integrates live preview directly into the editing space, what you see is exactly how your document will appear. Typora also features syntax highlighting for code blocks in over 100 programming languages. When you insert a code block python, it highlights the syntax automatically, making it ideal for developers and technical writers. The interface supports custom themes and CSS, allowing you to personalize the appearance fonts, colors, spacing, etc. Overall, the UI balances simplicity with power, offering a seamless writing and editing experience where formatting feels invisible, yet fully functional in the background.</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
             </div>
+          </div>
+
         </div>
-        <!-- This is the Footer-->
 
-        
-        <div class="top-btn" id="topBtn">
-            <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>     
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
-    </body>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/LVvBX3cN_VE" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Yq6u6Z1yuco" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/qtI9kJQquKw" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
+</body>
 </html>

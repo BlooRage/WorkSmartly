@@ -1,109 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WorkSmartly: Smallpdf</title>
-        <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
     </head>
     <body>
-        <!-- This is the Header and NavBar-->
-        <!-- DONT CHANGE -->
-        <header class="header" id="head">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="../index.html" class="head-btn" id="Home">HOME</a> 
-                <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#SmallPDF" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+              <h1 class="display-5 fw-bold mt-3" id="page-title">Smallpdf</h1>
             </div>
-        </header>
-
-        <!-- RETURN BUTTON -->
-        <!-- DONT CHANGE -->
-        <div class="return-btn" id="returnBtn">
-            <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-        </div>     
-
-
-        <!--Productivity Tool Name-->
-        <div class="header-title">
-            <h1>Smallpdf</h1><!--Change Name-->
+          </div>
         </div>
 
-        <!--Container Class-->
-        <div class="container">
-            <div class="first-section">
-                <div class="left-container">
-                    <div class="tool-logo">
-                        <a href="../images/38Smallpdf.png" target="image" id="img"><img src="../images/38Smallpdf.png" title="38Smallpdf" alt="38Smallpdf" width="95%"></a>
-                    </div>
-                </div>
-                <div class="right-container">
-                    <div class="tool-desc">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smallpdf is a popular online tool that was launched in Switzerland in 2013 by a group of young developers who wanted to make working with PDF files easier for everyone. What started as a small side project quickly became one of the most trusted PDF platforms in the world. Today, millions of users across different countries rely on it to help with school, work, or personal tasks involving PDF documents.
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <a href="../Images/38Smallpdf.png" target="image" id="img"><img src="../Images/38Smallpdf.png" title="Smallpdf Logo" alt="Box Logo" width="75%"></a>
+              </div>
+            </div>
+            <div class="col-md-8" style="text-align: justify;">
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smallpdf is a popular online tool that was launched in Switzerland in 2013 by a group of young developers who wanted to make working with PDF files easier for everyone. What started as a small side project quickly became one of the most trusted PDF platforms in the world. Today, millions of users across different countries rely on it to help with school, work, or personal tasks involving PDF documents. One great thing about Smallpdf is that it combines many useful tools in one place. You don’t need to download or install anything because it works directly in your browser. All you have to do is go to the website, upload your file, and choose the function you need whether it’s to compress, convert, merge, split, or edit a PDF. It’s very convenient, especially for people who are always on the go. The free version is good for basic tasks, while the paid plan gives you access to more advanced features like OCR (Optical Character Recognition), which allows you to turn scanned PDFs into editable text.</p>
 
-One great thing about Smallpdf is that it combines many useful tools in one place. You don’t need to download or install anything because it works directly in your browser. All you have to do is go to the website, upload your file, and choose the function you need whether it’s to compress, convert, merge, split, or edit a PDF. It’s very convenient, especially for people who are always on the go.
-
-The free version is good for basic tasks, while the paid plan gives you access to more advanced features like OCR (Optical Character Recognition), which allows you to turn scanned PDFs into editable text. The premium version also offers stronger file compression, batch processing for multiple documents, and extra privacy features.
-
-Smallpdf is not just about editing PDFs it also helps save time and effort, especially when you're busy with school or work. It removes the need to download heavy software just to do simple PDF tasks. Since it’s online, you can access it anytime as long as you have internet. Many students use it to submit school requirements, teachers use it to prepare modules, and workers use it to manage reports or official documents. It’s a helpful and reliable tool that makes working with PDFs easier.
-                            </p>
-                    </div>
-                </div>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The premium version also offers stronger file compression, batch processing for multiple documents, and extra privacy features. Smallpdf is not just about editing PDFs it also helps save time and effort, especially when you're busy with school or work. It removes the need to download heavy software just to do simple PDF tasks. Since it’s online, you can access it anytime as long as you have internet. Many students use it to submit school requirements, teachers use it to prepare modules, and workers use it to manage reports or official documents. It’s a helpful and reliable tool that makes working with PDFs easier.</p>
             </div>
 
-            
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>User Interface</span></h2>
-            </div>
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://smallpdf.com/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
 
-            <div class="UI-Container">
-                <div class="ui-left-container" align="center">
-                    <a href="../Images/38SmallpdfUI.png" target="image" id="img"><img src="../Images/38SmallpdfUI.png" title="38SmallpdfUI" alt="38SmallpdfUI" width="95%"></a>
-                </div>
-                <div class="ui-right-container">
-                    <p class="ui-name"><strong>Smallpdf UI</strong></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smallpdf has a colorful and easy to understand layout, which makes it friendly even for people who are not used to technology. When you open the website, you’ll immediately see big buttons with labels like Convert, Merge, Split, Compress, and others. You simply click on what you need, then drag and drop your file or upload it from your phone, computer, or even cloud storage. After that, clear and simple instructions appear to guide you through the steps. The buttons are easy to find and follow, so you won’t get confused. It also works well on any device, whether you're using a smartphone, tablet, or laptop. The whole experience is fast and smooth. That’s why many students, teachers, and office workers use Smallpdf it saves time, removes the hassle, and makes working with PDFs a lot easier.</p>
-                </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
             </div>
+          </div>
 
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>Video Tutorials</span></h2>
-            </div>
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/38SmallpdfUI.png" target="image" id="img">     
+                    <img src="../Images/38SmallpdfUI.png" class="img-fluid" title="Smallpdf UI" alt="Smallpdf Dashboard">
+                  </a>
+                </div>
+              </div>
 
-            <div class="video-container">
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/3vhQsVjaO78">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/NDCSSdP-wTM">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/jalUCy8pe2k">
-                    </iframe>
-                </div>
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">Smallpdf Dashboard</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smallpdf has a colorful and easy to understand layout, which makes it friendly even for people who are not used to technology. When you open the website, you’ll immediately see big buttons with labels like Convert, Merge, Split, Compress, and others. You simply click on what you need, then drag and drop your file or upload it from your phone, computer, or even cloud storage. </p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After that, clear and simple instructions appear to guide you through the steps. The buttons are easy to find and follow, so you won’t get confused. It also works well on any device, whether you're using a smartphone, tablet, or laptop. The whole experience is fast and smooth. That’s why many students, teachers, and office workers use Smallpdf it saves time, removes the hassle, and makes working with PDFs a lot easier.</p>
             </div>
+          </div>
+
         </div>
-        <!-- This is the Footer-->
 
-        
-        <div class="top-btn" id="topBtn">
-            <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>     
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
-    </body>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/3vhQsVjaO78" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/NDCSSdP-wTM" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/jalUCy8pe2k" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
+</body>
 </html>

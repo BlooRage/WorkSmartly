@@ -1,110 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WorkSmartly: Google Calendar</title>
-        <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
     </head>
     <body>
-        <!-- This is the Header and NavBar-->
-        <!-- DONT CHANGE -->
-        <header class="header" id="head">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="../index.html" class="head-btn" id="Home">HOME</a> 
-                <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#GoogleCalendar" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+                                                  <!--CHANGE TOOL NAME-->
+              <h1 class="display-5 fw-bold mt-3" id="page-title">Google Calendar</h1>
             </div>
-        </header>
-
-        <!-- RETURN BUTTON -->
-        <!-- DONT CHANGE -->
-        <div class="return-btn" id="returnBtn">
-            <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-        </div>     
-
-
-        <!--Productivity Tool Name-->
-        <div class="header-title">
-            <h1>Google Calendar</h1><!--Change Name-->
+          </div>
         </div>
 
-        <!--Container Class-->
-        <div class="container">
-            <div class="first-section">
-                <div class="left-container">
-                    <div class="tool-logo">
-                        <a href="/Images/13GoogleCalendar.png" target="image" id="img"><img src="/Images/13GoogleCalendar.png" title="13GoogleCalendar" alt="13GoogleCalendar" width="95%"></a>
-                    </div>
-                </div>
-                <div class="right-container">
-                    <div class="tool-desc">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Google Calendar is a widely used scheduling tool that has transformed the way individuals and teams organize their time. Launched in 2006 and developed by Google, it quickly gained popularity for its simple yet powerful approach to time management. The platform allows users to schedule appointments, set reminders, and create events that sync across multiple devices. Its integration with other Google services such as Gmail and Google Meet enhances the user experience, allowing for automatic event creation, video conferencing links, and real time updates. The interface is clean and user friendly, featuring color coded calendars, adjustable views, and customizable notifications that help users stay aware of upcoming activities.
-                        </p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Beyond basic scheduling, Google Calendar offers collaborative features that make it suitable for both personal and professional planning. Users can create shared calendars, send event invitations, and track RSVP responses, making coordination with teams, classmates, or family members simple and efficient. The ability to maintain multiple calendars for different areas of life such as work, personal goals, or academic deadlines adds flexibility and structure. With broad accessibility across desktop and mobile platforms, users can manage their time from virtually anywhere. Google Calendar remains an essential productivity tool, supporting millions of people in maintaining organized routines, meeting deadlines, and improving overall time management in a fast paced world.
-                        </p>
-                    </div>
-                </div>
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <!--PUT LOGO-->
+                <a href="../Images/13GoogleCalendar.png" target="image" id="img"><img src="../Images/13GoogleCalendar.png" title="Google Calendar Logo" alt="Google Calendar Logo" width="75%"></a>
+              </div>
+            </div>
+            <div class="col-md-8" style="text-align: justify;">
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Calendar is a widely used scheduling tool that has transformed the way individuals and teams organize their time. Launched in 2006 and developed by Google, it quickly gained popularity for its simple yet powerful approach to time management. The platform allows users to schedule appointments, set reminders, and create events that sync across multiple devices. Its integration with other Google services such as Gmail and Google Meet enhances the user experience, allowing for automatic event creation, video conferencing links, and real time updates. The interface is clean and user friendly, featuring color coded calendars, adjustable views, and customizable notifications that help users stay aware of upcoming activities.</p>
+
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beyond basic scheduling, Google Calendar offers collaborative features that make it suitable for both personal and professional planning. Users can create shared calendars, send event invitations, and track RSVP responses, making coordination with teams, classmates, or family members simple and efficient. The ability to maintain multiple calendars for different areas of life such as work, personal goals, or academic deadlines adds flexibility and structure. With broad accessibility across desktop and mobile platforms, users can manage their time from virtually anywhere. Google Calendar remains an essential productivity tool, supporting millions of people in maintaining organized routines, meeting deadlines, and improving overall time management in a fast paced world.</p>
             </div>
 
-            
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>User Interface</span></h2>
-            </div>
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://calendar.google.com/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
 
-            <div class="UI-Container">
-                <div class="ui-left-container" align="center">
-                    <a href="/Images/13GoogleCalendarUI1.png" target="image" id="img"><img src="/Images/13GoogleCalendarUI1.png" title="13GoogleCalendarUI1" alt="13GoogleCalendarUI1" width="95%"></a>
-                </div>
-                <div class="ui-right-container">
-                    <p class="ui-name"><strong>GOOGLE CALENDAR – CALENDAR</strong></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        The Google Calendar page provides a clear and easy-to-use layout for managing daily schedules. The day view displays time slots from 12 AM to 2 PM, showing no events currently scheduled, and users can click any time slot to create a new event quickly. On the left side, a mini month calendar highlights the current date, May 15, 2025, in blue. Below the calendar is the "Time Insights" section, which shows that no meetings are planned between May 11 and May 17. Users can select which calendars to display, such as “MICAH DANA AQUINO” and “BUSINESS PROCESS MANAGEMENT,” by toggling the options in the left pane. The interface also includes a "Tasks" section for managing to-do items. In the top right corner, a user profile icon provides access to account settings. The layout supports easy navigation, event creation, and calendar customization. It encourages users to organize their schedules, plan meetings efficiently, and balance personal and professional commitments effectively.
-
-                    </p>
-                </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
             </div>
+          </div>
 
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>Video Tutorials</span></h2>
-            </div>
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/1TodoistUI1.png" target="image" id="img">     
+                    <img src="../Images/1TodoistUI1.png" class="img-fluid" title="Google Calendar UI" alt="Google Calendar Calendar">
+                  </a>
+                </div>
+              </div>
 
-            <div class="video-container">
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/5GdxyXoD1xk">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/XNGqA6I1b24">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/6dyCOXNLp8U&t=11s">
-                    </iframe>
-                </div>
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">Google Calendar - Calendar</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Google Calendar page provides a clear and easy-to-use layout for managing daily schedules. The day view displays time slots from 12 AM to 2 PM, showing no events currently scheduled, and users can click any time slot to create a new event quickly. On the left side, a mini month calendar highlights the current date, May 15, 2025, in blue. Below the calendar is the "Time Insights" section, which shows that no meetings are planned between May 11 and May 17. Users can select which calendars to display, such as “MICAH DANA AQUINO” and “BUSINESS PROCESS MANAGEMENT,” by toggling the options in the left pane. The interface also includes a "Tasks" section for managing to-do items. In the top right corner, a user profile icon provides access to account settings. The layout supports easy navigation, event creation, and calendar customization. It encourages users to organize their schedules, plan meetings efficiently, and balance personal and professional commitments effectively.</p>
+              
             </div>
+          </div>
+
         </div>
-        <!-- This is the Footer-->
 
-        
-        <div class="top-btn" id="topBtn">
-            <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>     
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
-    </body>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/5GdxyXoD1xk" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/XNGqA6I1b24" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/kqTL7Gr5oFg" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
+</body>
 </html>

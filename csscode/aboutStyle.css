@@ -6,6 +6,11 @@
     box-shadow: 0px 0px 5px gray;
 }
 
+body {
+    background-color: #fffafa;
+    font-family: poppins, 'Segoe UI', Verdana, sans-serif;   
+}
+
 
 #img-logo {
     margin: -8px;
@@ -62,7 +67,7 @@
 #intro-col {
     background-color: #e4DAF7;
     border-radius: 25px 0px 0px 25px;
-        border: 3px solid #44406B;
+    border: 3px solid #44406B;
 }
 
 #contri-col {

@@ -1,102 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WorkSmartly: ClickUp</title>
-        <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
     </head>
     <body>
-        <!-- This is the Header and NavBar-->
-        <!-- DONT CHANGE -->
-        <header class="header" id="head">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="../index.html" class="head-btn" id="Home">HOME</a> 
-                <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#ClickUp" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+              <h1 class="display-5 fw-bold mt-3" id="page-title">ClickUp</h1>
             </div>
-        </header>
-
-        <!-- RETURN BUTTON -->
-        <!-- DONT CHANGE -->
-        <div class="return-btn" id="returnBtn">
-            <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-        </div>     
-
-
-        <!--Productivity Tool Name-->
-        <div class="header-title">
-            <h1>ClickUp</h1><!--Change Name-->
+          </div>
         </div>
 
-        <!--Container Class-->
-        <div class="container">
-            <div class="first-section">
-                <div class="left-container">
-                    <div class="tool-logo">
-                    <a href="../Images/52ClickUp.png" target="image" id="img"><img src="../Images/52ClickUp.png" title="ClickUp Logo" alt="ClickUp Logo" width="95%"></a>
-                    </div>
-                </div>
-                <div class="right-container">
-                    <div class="tool-desc">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClickUp is a robust and cloud-based application that assists individuals in organizing their work and managing projects efficiently. It is created to serve as one space for individuals, teams, and businesses. You can utilize it to manage complex projects, day-to-day tasks, or team work in one location. Rather than having numerous various tools, ClickUp simplifies everything by merging task creation, planning, and prioritizing. You can create due dates, assign tasks to individuals, build checklists, include custom fields, and establish dependencies. The system provides views such as List, Board (Kanban), Calendar, Gantt Chart, Timeline, and Table, allowing every user to view their work in the most convenient way. There are also plenty of helpful project capabilities in ClickUp, including establishing goals, flagging milestones, balancing workload, and monitoring progress with agile tools. It has time tracking, report dashboards, and metrics that assist teams in checking their performance and deadlines. The application enables team members to discuss comments, chat, and edit documents collaboratively. Automation features enable users to set rules to minimize repetitive work. It also integrates well with other applications such as Slack, Google Drive, Zoom, and GitHub. You can tailor many aspects of ClickUp, including statuses, templates, user permissions, and roles, making it appropriate for nearly any type of work or business. Additionally, ClickUp offers mobile apps for iOS and Android, allowing users to stay connected and manage their work on the go. Its customizable interface and extensive feature set make it a versatile tool suited for teams of all sizes and industries.</p>
-                    </div>
-                </div>
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <a href="../Images/52ClickUp.png" target="image" id="img"><img src="../Images/52ClickUp.png" title="ClickUp Logo" alt="ClickUp Logo" width="75%"></a>
+              </div>
+            </div>
+            <div class="col-md-8" style="text-align: justify;">
+            <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClickUp is a powerful cloud-based platform designed to help individuals and teams manage tasks and projects in one centralized space. It eliminates the need for multiple tools by combining task creation, planning, and prioritization into a single system. Users can assign tasks, set deadlines, create checklists, add custom fields, and define task dependencies. The platform supports various viewing options such as List, Board, Calendar, Gantt Chart, Timeline, and Table, giving users flexibility in how they visualize their workflow. With features like goal tracking, milestone setting, workload balancing, and agile tools, ClickUp supports both daily task management and large-scale project coordination.</p>
+            <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition to robust project management tools, ClickUp offers time tracking, performance dashboards, and progress metrics to help teams stay on schedule and evaluate outcomes. Communication is streamlined through in-task comments, team chat, and collaborative document editing. Automation rules can be set to reduce repetitive work, improving overall efficiency. ClickUp integrates smoothly with popular apps like Slack, Google Drive, Zoom, and GitHub, ensuring seamless connectivity across platforms. Customization options—such as templates, user roles, and permission settings—make ClickUp adaptable to a wide range of industries and workflows, making it a practical solution for both individual professionals and large organizations.</p>
+
             </div>
 
-            
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>User Interface</span></h2>
-            </div>
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://clickup.com/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
 
-            <div class="UI-Container">
-                <div class="ui-left-container" align="center">
-                    <a href="../Images/52ClickUpUI1.png" target="image" id="img"><img src="../Images/52ClickUpUI1.png" title="ClickUp Dashboard" alt="ClickUp Dashboard" width="95%"></a>
-                </div>
-                <div class="ui-right-container">
-                    <p class="ui-name"><strong>ClickUp Dashboard</strong></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClickUp’s website has a clean and modern look. At the top, you see the main menu with links like “Features,” “Pricing,” and “Login.” The first thing you notice is a big message that tells what ClickUp does – it helps people manage tasks and work in one place. There’s a button to “Get Started” for free. Scrolling down, the site shows pictures and short texts about its tools like task tracking, team chat, and time management. There are also videos and user reviews. The colors are bright, with lots of white space. The website is easy to read and use. Everything is made to help people understand how ClickUp can help them work better and faster. The site also provides detailed explanations of different features and plans, making it simple for new users to find the information they need. There are helpful resources like FAQs, tutorials, and customer support options to assist users in getting started and making the most of the platform.</p>
-                </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
             </div>
+          </div>
 
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>Video Tutorials</span></h2>
-            </div>
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/52ClickUpUI1.png" target="image" id="img">     
+                    <img src="../Images/52ClickUpUI1.png" class="img-fluid" title="ClickUp UI" alt="ClickUp Dashboard">
+                  </a>
+                </div>
+              </div>
 
-            <div class="video-container">
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/JmcVjP8m02k"> 
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/GVd5MIIxK7Q"> 
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/0Q8aA0Lwuyc"> 
-                    </iframe>
-                </div>
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">ClickUp Dashboard</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ClickUp’s website features a sleek, modern design that is both visually appealing and easy to navigate. At the top, the main menu includes links such as “Features,” “Pricing,” and “Login,” allowing users to access key sections effortlessly. The homepage prominently displays a bold message explaining that ClickUp helps users manage tasks and collaborate in one unified platform, accompanied by a clear “Get Started” button for free sign-up. As you scroll down, the site showcases images and concise descriptions of its key tools, including task tracking, team chat, and time management features. There are also engaging videos and authentic user reviews that highlight the platform’s benefits. Bright colors and ample white space create a clean, inviting look that enhances readability and ease of use. The website is designed to quickly communicate how ClickUp can improve productivity and streamline work processes. It offers detailed explanations of different features and pricing plans, making it simple for new users to find the information they need to get started and explore the platform’s capabilities.</p>
             </div>
+          </div>
+
         </div>
-        <!-- This is the Footer-->
 
-        
-        <div class="top-btn" id="topBtn">
-            <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>     
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
-    </body>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/JmcVjP8m02k" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/GVd5MIIxK7Q" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/0Q8aA0Lwuyc" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
+</body>
 </html>

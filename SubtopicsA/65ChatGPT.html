@@ -1,60 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WorkSmartly: ChatGPT</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
 
-<head>
-    <meta charset="utf-8">
-    <title>WorkSmartly: ChatGPT</title>
-    <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
 
-<body>
-    <!-- This is the Header and NavBar-->
-    <!-- DONT CHANGE -->
-    <header class="header" id="head">
-        <div class="logo">
-            <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
-        </div>
-        <div class="navbar" align="center">
-            <a href="../index.html" class="head-btn" id="Home">HOME</a>
-            <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-            <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-            <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-            <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
-        </div>
-    </header>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!-- RETURN BUTTON -->
-    <!-- DONT CHANGE -->
-    <div class="return-btn" id="returnBtn">
-        <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-    </div>
-
-
-    <!--Productivity Tool Name-->
-    <div class="header-title">
-        <h1>ChatGPT</h1><!--Change Name-->
-    </div>
-
-    <!--Container Class-->
-    <div class="container">
-        <div class="first-section">
-            <div class="left-container">
-                <div class="tool-logo">
-                    <a href="../Images/65Chatgpt.png" target="image" id="img"><img src="../Images/65Chatgpt.png" title="ChatGPT Logo" alt="ChatGPT Logo" width="95%"></a>
-                </div>
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="right-container">
-                <div class="tool-desc">
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ChatGPT is a cutting-edge AI language model designed to transform
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#ChatGPT" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+              <h1 class="display-5 fw-bold mt-3" id="page-title">ChatGPT</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <a href="../Images/65Chatgpt.png" target="image" id="img"><img src="../Images/65Chatgpt.png" title="ChatGPT Logo" alt="ChatGPT Logo" width="75%"></a>
+              </div>
+            </div>
+            <div class="col-md-8" style="text-align: justify;">
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ChatGPT is a cutting-edge AI language model designed to transform
                         the way people work, learn, and create. With its advanced natural language capabilities, ChatGPT
                         understands prompts and generates human-like text with clarity and precision. It serves as a
                         powerful assistant for various tasks, helping students write essays, assisting professionals
                         with emails and reports, and supporting developers with coding and debugging. ChatGPT also aids
                         in brainstorming, tutoring in different subjects, and creative writing. Available anytime, it
-                        acts like a knowledgeable companion, offering insights, explanations, and feedback instantly.
-                    </p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ChatGPT adapts to individual needs by enhancing productivity,
+                        acts like a knowledgeable companion, offering insights, explanations, and feedback instantly.</p>
+
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ChatGPT adapts to individual needs by enhancing productivity,
                         boosting creativity, and improving communication. Students gain quick access to learning support
                         and clear explanations. Professionals use it to refine their work, save time, and maintain
                         accuracy in communication. Businesses turn to ChatGPT for automating customer support,
@@ -64,58 +92,85 @@
                         just a helpful tool. ChatGPT represents a major shift in how we interact with technology in
                         education, business, and everyday life. It offers a smarter, more efficient way to get things
                         done and encourages users to unlock new levels of creativity and problem-solving. With ChatGPT,
-                        the future of intelligent assistance is already here.</p>
+                        the future of intelligent assistance is already here. </p>
+            </div>
+
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://chatgpt.com/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
+
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/65ChatGPTUI.png" target="image" id="img">     
+                    <img src="../Images/65ChatGPTUI.png" class="img-fluid" title="ChatGPT UI" alt="ChatGPT Dashboard">
+                  </a>
                 </div>
-            </div>
-        </div>
+              </div>
 
-
-        <!-- DONT CHANGE -->
-        <div class="divider">
-            <h2 class="category"><span>User Interface</span></h2>
-        </div>
-
-        <div class="UI-Container">
-            <div class="ui-left-container" align="center">
-                <a href="../Images/65ChatGPTUI.png" target="image" id="img"><img src="../Images/65ChatGPTUI.png" title="ChatGPT Dashboard" alt="The Dashboard of Chatgpt" width="95%"></a>
-            </div>
-            <div class="ui-right-container">
-                <p class="ui-name"><strong>ChatGPT Dashboard </strong></p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The ChatGPT interface is designed with a clean, minimalist layout that emphasizes user experience and ease of navigation. A left sidebar allows users to access previous conversations, start new chats, and manage settings effortlessly. The central chat area presents user inputs at the bottom and AI responses above in a clear, sequential format that supports natural interaction. At the top, a navigation bar offers quick access to account settings, upgrade options, and theme preferences, making customization simple. The interface supports markdown, code formatting, and image uploads in Pro or Vision-enabled versions, enhancing its versatility for a wide range of uses. Whether for casual conversation, technical tasks, or visual inputs, the design accommodates various needs smoothly. Its streamlined appearance and responsive layout ensure functionality across multiple devices.
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">ChatGPT Dashboard</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ChatGPT interface is designed with a clean, minimalist layout that emphasizes user experience and ease of navigation. A left sidebar allows users to access previous conversations, start new chats, and manage settings effortlessly. The central chat area presents user inputs at the bottom and AI responses above in a clear, sequential format that supports natural interaction. At the top, a navigation bar offers quick access to account settings, upgrade options, and theme preferences, making customization simple. The interface supports markdown, code formatting, and image uploads in Pro or Vision-enabled versions, enhancing its versatility for a wide range of uses. Whether for casual conversation, technical tasks, or visual inputs, the design accommodates various needs smoothly. Its streamlined appearance and responsive layout ensure functionality across multiple devices.
+                </p>
                 </p>
             </div>
+          </div>
+
         </div>
 
-        <!-- DONT CHANGE -->
-        <div class="divider">
-            <h2 class="category"><span>Video Tutorials</span></h2>
-        </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <div class="video-container">
-            <div class="YT-Vid">
-                <iframe width="520px" height="310" src="https://www.youtube.com/embed/Gaf_jCnA6mc">
-                </iframe>
-            </div>
-            <div class="YT-Vid">
-                <iframe width="520px" height="310" src="https://www.youtube.com/embed/bkf3XBOj2PE">
-                </iframe>
-            </div>
-            <div class="YT-Vid">
-                <iframe width="520px" height="310" src="https://www.youtube.com/embed/MnDudvCyWpc">
-                </iframe>
-            </div>
-        </div>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Gaf_jCnA6mc" title="YouTube video" allowfullscreen></iframe>
+      </div>
     </div>
-    <!-- This is the Footer-->
-
-
-    <div class="top-btn" id="topBtn">
-        <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/bkf3XBOj2PE" title="YouTube video" allowfullscreen></iframe>
+      </div>
     </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/MnDudvCyWpc" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-    <footer class="foot">
-        <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-    </footer>
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
 </body>
-
 </html>

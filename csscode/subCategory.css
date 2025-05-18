@@ -1,0 +1,226 @@
+/*UNIVERSAL CODES*/
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/lora');
+
+#head-nav {
+    box-shadow: 0px 0px 5px gray;
+}
+
+body {
+    background-color: #fffafa;
+    font-family: poppins, 'Segoe UI', Verdana, sans-serif;   
+}
+
+
+#img-logo {
+    margin: -8px;
+    margin: -13px -8px -8px -15px;
+}
+
+#buttons a{
+    text-decoration: none;
+    background-color: white;
+    color:#061A38;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#buttons a:hover{
+    text-decoration: none;
+    background-color: #e4DAF7;
+}
+
+#buttons a:active{
+    transform: scale(0.9);
+}
+
+    @media (max-width: 576px) {
+  #img-logo {
+    width: 80%;
+    margin: -13px -8px -8px -15px;
+  }
+
+  #img-logo-foot {
+    width: 10%;
+    margin: -13px -8px -8px -15px;
+  }
+
+}
+#page-title {
+    font-family: Lora;
+}
+
+#all-tools h2 {
+    font-family: lora, Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    border-bottom: 3px solid lightgrey; 
+    line-height: 0.1em;
+    width: 92%;
+ } 
+ 
+ #all-tools h2 span { 
+     background:#fffafa; 
+     padding:0 5px; 
+ }
+
+
+ .tool-tile {
+    background-color:#e4DAF7;
+    border: 2px solid #44406B;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 0px 0px 8px gray;
+ }
+
+ .Pdesc {
+    text-align: justify;
+ }
+
+.learn{
+    color:#46527d;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    align-self: left;
+}
+
+#img-logo-tool {
+  border-radius: 5px;
+}
+
+.top-btn {
+    position: sticky;
+    bottom: 0px;
+    right: 3.5%;
+    left: 96%;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.top-btn a {
+    background-color: #44406B;
+    border: 2px solid #ffffff;
+    color: white;
+    cursor: pointer;
+    padding: 15px 23px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.top-btn a:hover {
+    background-color: #e4DAF7;
+    border: 2px solid #44406B;
+    color: #44406B;
+}
+
+/* Extra small to small devices (max-width: 575.98px) */
+@media (max-width: 576px) {
+  #img-logo {
+    width: 80%;
+    margin: -13px -8px -8px -15px;
+  }
+
+  #page-title {
+    font-size: 1.8em;
+    margin-left: -60px;
+  }
+
+  #all-tools h2 {
+    font-size: 1.2em;
+    margin: 2px 0 20px;
+  }
+
+  #img-logo-foot {
+    width: 10%;
+    margin: -13px -8px -8px -15px;
+  }
+
+  .tool-tile {
+    margin-bottom: 20px;
+  }
+    .tool-tile {
+    padding: 10px;
+    margin-bottom: 1em;
+  }
+}
+
+
+/* Small to medium devices (min-width: 577px and max-width: 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  #page-title {
+    font-size: 2em;
+  }
+
+  #all-tools h2 {
+    font-size: 1.4em;
+  }
+
+  .tool-tile {
+    padding: 10px;
+    margin-bottom: 1em;
+  }
+
+  .Pdesc {
+    font-size: 0.9em;
+  }
+}
+
+
+/* Medium to large devices (min-width: 769px and max-width: 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  #page-title {
+    font-size: 2.2em;
+  }
+
+  #all-tools h2 {
+    font-size: 1.6em;
+  }
+
+  .Pdesc {
+    font-size: 1em;
+  }
+}
+
+
+/* Large to extra large devices (min-width: 993px and max-width: 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .tool-tile {
+    padding: 15px;
+  }
+
+  .Pdesc {
+    font-size: 1.05em;
+  }
+}
+
+
+/* Extra large devices (min-width: 1201px and max-width: 1400px) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .tool-tile {
+    padding: 20px;
+  }
+
+  .Pdesc {
+    font-size: 1.1em;
+  }
+}
+
+
+/* Ultra-wide screens (min-width: 1401px) */
+@media (min-width: 1401px) {
+  #page-title {
+    font-size: 2.8em;
+  }
+
+  #all-tools h2 {
+    font-size: 2em;
+  }
+
+  .Pdesc {
+    font-size: 1.15em;
+  }
+}

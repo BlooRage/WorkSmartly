@@ -1,102 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WorkSmartly: HubSpot</title>
-        <link rel="Stylesheet" type="text/css" href="../csscode/subtopicStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="../csscode/subtopicStyleBoot.css">
+        <link rel="shortcut icon" href="../Images/workSmartlyTabLogo.png"/>
     </head>
     <body>
-        <!-- This is the Header and NavBar-->
-        <!-- DONT CHANGE -->
-        <header class="header" id="head">
-            <div class="logo">
-                <a href="../Images/Logo-WorkSmartly-head.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" width="45%"></a>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+
+        <!--Header Code-->
+        <nav class="navbar navbar-expand-md navbar-light bg-white" id="head-nav">
+          <div class="container-fluid">
+    
+            <!-- Logo (visible on all screens) -->
+             <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-head.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-head.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="68%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttons" aria-controls="buttons" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Navigation Buttons -->
+            <div class="collapse navbar-collapse justify-content-md-end" id="buttons">
+              <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../index.html" id="Home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../about.html" id="About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../category.html" id="Category">CATEGORY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../tools.html" id="Tools">TOOLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-lg px-3 mx-3 head-btn fs-5" href="../contact.html" id="Contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-            <div class="navbar" align="center">
-                <a href="../index.html" class="head-btn" id="Home">HOME</a> 
-                <a href="../about.html" class="head-btn" id="About">ABOUT</a>
-                <a href="../category.html" class="head-btn" id="Category">CATEGORY</a>
-                <a href="../tools.html" class="head-btn" id="Tools">TOOLS</a>
-                <a href="../contact.html" class="head-btn" id="Contact">CONTACT</a>
+          </div>
+        </nav>
+
+<!-- Wrapper div that takes no space -->
+<div style="height: 0; overflow: visible;">
+  <div class="return-btn" id="returnBtn">
+      <a href="../tools.html#Hubspot" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+</div>
+
+        <div class="container-fluid">
+
+          <div class="row mx-3">
+            <div class="col-12 mt-3 text-start">
+              <h1 class="display-5 fw-bold mt-3" id="page-title">HubSpot</h1>
             </div>
-        </header>
-
-        <!-- RETURN BUTTON -->
-        <!-- DONT CHANGE -->
-        <div class="return-btn" id="returnBtn">
-            <a href="#" alt="return"><i class="fa-solid fa-arrow-left"></i></a>
-        </div>     
-
-
-        <!--Productivity Tool Name-->
-        <div class="header-title">
-            <h1>HubSpot</h1><!--Change Name-->
+          </div>
         </div>
 
-        <!--Container Class-->
-        <div class="container">
-            <div class="first-section">
-                <div class="left-container">
-                    <div class="tool-logo">
-                    <a href="../Images/57HubSpot.png" target="image" id="img"><img src="../Images/57HubSpot.png" title="HubSpot Logo" alt="HubSpot Logo" width="95%"></a>
-                    </div>
-                </div>
-                <div class="right-container">
-                    <div class="tool-desc">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HubSpot CRM is a powerful, cloud-based solution that makes it simple for businesses of all sizes to manage their customer relationships. It is famous for being easy to use and versatile. HubSpot CRM is a central location where all customer interactions, such as emails, calls, website visits, live chat, and social media messages, can be monitored. It allows users to manage contacts, leads, and deals with capabilities such as sales pipeline tracking, stage customization, tasks, and activities. It offers real-time tracking of deal progression. Automation of repetitive tasks, scheduling meetings, and sending follow-up emails in a personalized manner using templates and sequences are also supported. Its chat functionalities such as chatbots and live chat enable businesses to connect instantly with customers. Website analytics and form tools capture information on customer activity to ensure outreach is more personalized. Dashboards and reporting enable teams to make informed decisions with critical data such as sales performance, email opens, and task completion. Among the greatest aspects of HubSpot CRM is its free plan that provides many helpful functionalities and is ideal for startup companies and small teams. As the business expands, they can expand and link HubSpot CRM with other HubSpot products such as Marketing, Sales, Service, CMS, and Operations, providing an entire platform for work automation, enhanced collaboration, and enduring customer relationships. HubSpot CRM also offers seamless integration with numerous third-party applications, allowing businesses to customize their workflows and improve overall efficiency.</p>
-                    </div>
-                </div>
+        <div class="container-fluid">
+          <div class="row m-5">
+            <div class="col-md-4 mb-4" align="center" id="img-container">
+              <div class="tool-logo">
+                <a href="../Images/57HubSpot.png" target="image" id="img"><img src="../Images/57HubSpot.png" title="HubSpot Logo" alt="HubSpot Logo" width="75%"></a>
+              </div>
             </div>
+            <div class="col-md-8" style="text-align: justify;">
+                <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zoho CRM is a cloud-based tool designed to help sales, marketing, and customer support teams manage customer relationships effectively. It focuses on automation, AI-driven insights, and multi-channel communication to help businesses attract leads, close deals, and build long-term relationships. The platform offers comprehensive lead and contact management, allowing users to capture, score, and nurture leads through workflows and email campaigns. Sales teams can track their pipelines, create milestones, assign tasks, and monitor performance from a single dashboard.</p> 
+                <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zoho CRM supports omnichannel communication, including email, phone, SMS, social media, live chat, and self-service portals, ensuring consistent customer interactions. The AI assistant, Zia, provides valuable insights, predictive sales recommendations, anomaly detection, and notifications to improve decision-making. The platform is highly customizable with options for layouts, fields, workflows, and integrations with third-party apps like Google Workspace, Mailchimp, and QuickBooks. Zoho CRM’s integration with the broader Zoho platform allows businesses to scale operations and centralize customer data for streamlined communication.</p>            </div>
 
-            
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>User Interface</span></h2>
-            </div>
+              <div class="d-flex justify-content-end justify-content-center-sm w-100" id="tryitnow-btn">
+                <a href="https://www.hubspot.com/" 
+                  target="_blank">
+                  Try it now
+                </a>
+              </div>
+          </div>
+          
 
-            <div class="UI-Container">
-                <div class="ui-left-container" align="center">
-                    <a href="../Images/57HubSpotUI1.png" target="image" id="img"><img src="../Images/57HubSpotUI1.png" title="HubSpot Dashboard" alt="HubSpot Dashboard" width="95%"></a>
-                </div>
-                <div class="ui-right-container">
-                    <p class="ui-name"><strong>HubSpot Dashboard</strong></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HubSpot CRM has a clean and easy-to-use interface. When you log in, you’ll see a dashboard that shows sales, tasks, and recent activity. The main menu is on the top and includes tabs like Contacts, Deals, Marketing, and Reports. Adding new contacts or deals is simple with big buttons and guided forms. You can drag and drop deals on the sales pipeline board to move them through stages. The sidebar shows details about contacts or companies. The design is bright and modern, with clear icons and labels. Notifications, emails, and tasks are easy to track. HubSpot also offers pop-up help tips, making it beginner-friendly. It’s a smooth and organized workspace for managing customers. The interface is customizable, allowing users to arrange their workspace according to their preferences. Additionally, the platform is responsive, functioning well across desktops, tablets, and smartphones for on-the-go access.</p>
-                </div>
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>User Interface</span></h2>
             </div>
+          </div>
 
-            <!-- DONT CHANGE -->
-            <div class="divider">
-                <h2 class="category"><span>Video Tutorials</span></h2>
-            </div>
+          <div class="container-fluid">
+            <div class="row mx-5 my-5 mb-5" id="ui">
+              <div class="col-md-5 mb-3 mt-3 d-flex justify-content-center align-items-center">
+                <div class="tool-logo">           
+                  <a href="../Images/57HubSpotUI1.png" target="image" id="img">     
+                    <img src="../Images/57HubSpotUI1.png" class="img-fluid" title="HubSpot UI" alt="HubSpot Dashboard">
+                  </a>
+                </div>
+              </div>
 
-            <div class="video-container">
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/Ihu9rr1wRa0">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/MDQVBE4T6lk">
-                    </iframe>
-                </div>
-                <div class="YT-Vid">
-                    <iframe width="520px" height="310"
-                    src="https://www.youtube.com/embed/Ayv3yyrpQvs">
-                    </iframe>
-                </div>
+            <div class="col-md-7" style="text-align: justify;">
+              <p class="ui-name text-center fs-3 fw-bold m-4">HubSpot Dashboard</p>
+              <p class="fs-5 pe-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HubSpot CRM features a clean, intuitive interface that makes managing customer relationships straightforward. Upon logging in, you are greeted with a dashboard displaying key information such as sales metrics, upcoming tasks, and recent activity updates. The main menu is conveniently located at the top, offering tabs like Contacts, Deals, Marketing, and Reports to access different areas easily. Adding new contacts or deals is quick and simple, thanks to prominent buttons and guided forms that streamline data entry. The sales pipeline is visualized with a drag-and-drop board, allowing you to move deals through various stages effortlessly. A sidebar provides detailed information about contacts and companies, making it easy to access relevant data. The bright, modern design uses clear icons and labels to enhance clarity and usability. Notifications, emails, and tasks are organized and easy to monitor, ensuring nothing is overlooked. Additionally, HubSpot offers helpful pop-up tips and guidance for new users, making the platform beginner-friendly.</p>
             </div>
+          </div>
+
         </div>
-        <!-- This is the Footer-->
 
-        
-        <div class="top-btn" id="topBtn">
-            <a href="#head" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>     
+          <div class="row" id="all-tools">
+            <div class="col-12 mb-1 mt-3 text-center d-flex align-items-center justify-content-center">
+              <h2 class="section-heading fw-bold px-3"><span>Video Tutorials</span></h2>
+            </div>
+          </div>
 
-        <footer class="foot">
-            <a href="../Images/Logo-WorkSmartly-foot.png" target="image" id="img"><img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" width="15%"></a>
-        </footer>
-    </body>
+
+
+  <div class="row g-4 mx-5 mb-5 mt-4">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Ihu9rr1wRa0" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/MDQVBE4T6lk" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Ayv3yyrpQvs" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+        <!--To top code-->
+        <div class="top-btn d-none d-md-block" id="topBtn">
+            <a href="#img-logo" alt="go top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>  
+
+        </div>
+
+        <div class="container-fluid" style="background-color: #44406B;">
+          <div class="col-sm-3 ms-3 py-3 d-flex">
+            <a class="navbar-brand align-items-center" href="../Images/Logo-WorkSmartly-foot.png" id="img-logo" target="image">
+              <img src="../Images/Logo-WorkSmartly-foot.png" title="Work Smartly logo" alt="logo of work smartly" class="img-fluid" width="62%">
+            </a>
+          </div>
+        </div>
+</body>
 </html>
